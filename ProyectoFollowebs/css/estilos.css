@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,300&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +27,18 @@ body {
     margin: 10px;
     padding: 15px;
 }
+
+.cardColor1{
+    background-color: #E8BC78;
+    border-radius: 20px;
+    border: none;
+}
+
+.cardColor2{
+    background-color: #A87BAB;
+    border-radius: 20px;
+    border: none;
+}
 /*Titulos*/
 
 h1 {
@@ -33,7 +47,7 @@ h1 {
     color: #4922D0;
     margin: 20px;
     padding: 15px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family:"Nunito", sans-serif;
 }
 
 h2 {
@@ -43,7 +57,18 @@ h2 {
     padding: 10px;
     padding-left: 0px;
     margin-left: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"Nunito", sans-serif;
+}
+
+.sub{
+    text-align: center;
+    color:#4922D0;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-family:"Nunito", sans-serif;
 }
 
 h3 {
@@ -51,7 +76,7 @@ h3 {
     color:#F3F6FA;
     margin-bottom: 10px;
     font-weight: 400;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 /*Textos*/
@@ -61,14 +86,13 @@ p {
     font-weight: 400;
     line-height: 30px;
     text-justify: distribute;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 20px;
+    font-family: "Nunito", sans-serif;
 
 }
 
 .subtitulo {
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Nunito", sans-serif;
     text-align: left;
     margin-left: 20px;
 }
@@ -86,42 +110,8 @@ ol {
     padding: 10px;
     padding-left: 0px;
     margin-left: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"Nunito", sans-serif;
 }
-
-/*Menú*/
-#navegador ul{
-    list-style-type: none;
-    text-align: right;
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-}
-
-#navegador li{
-    display: inline;
-    text-align: rigth;
-    margin: 0 10px 0 0;
- }
-
-a {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black ;
-    text-transform: uppercase;
-    font-weight: medium;
-    text-decoration: none;
-    margin: 10px 10px;
-}
-
-.lista {
-    list-style-type: decimal;
-    margin: 2px;
-    margin-right: 30px;
-    padding: 2px;
-    color:white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 
 
 /*Imagenes*/
@@ -148,11 +138,10 @@ a {
 }
 
 .icono{
-    width: 50px;
-    height: 50px;
+    width: 30%;
+    height: 30%;
     margin: 10px;
     padding: 10px;
-
 }
 
 /*Mapa*/
@@ -174,7 +163,7 @@ iframe {
     text-align: center;
     font-size: large;
     font-style: normal;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:"Nunito", sans-serif;
 
 }
 
@@ -182,9 +171,8 @@ iframe {
 
 form {
     margin-bottom: 20px;
-    padding-right: 500px;s
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-s
+    padding-right: 500px;
+    font-family: "Nunito", sans-serif;
 }
 
 /*Boton*/
@@ -208,6 +196,56 @@ main {
 
 footer {
     background-color: #FA6654;
-    margin: 40px;
     padding: 40px;
+}
+
+/*Navegador Menú*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}
+
+li, a{
+    font-family:"Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:white ;
+}
+
+.navLinks{ 
+    list-style-type: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    text-transform: uppercase;
+}
+
+.navLinks li a:hover {
+    color: #F9503B;
+}
+
+.espacio{
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
