@@ -169,16 +169,15 @@ p {
 
 .ubicacion {
     background-color: #FA6654;
-    margin: 0px;
-    padding: 0px;
+    padding-top: 2%;
 }
-
+/*
 iframe {
     margin-right: 2000px;
     padding: 500px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
+}*/
 
 .llamada { 
     text-align: center;

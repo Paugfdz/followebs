@@ -31,35 +31,60 @@
             </nav>    
     </header> 
 
-    <h1>Contacto</h1>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                     <div data-aos="fade-up">
+                    <h1>Contacto</h1>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <main>
-        <p class="llamada">Ponte en contacto con nosotros para obtener más información y una cotización personalizada.
-        <br>¡Esperamos trabajar contigo pronto!</p>
-
-        <form action="">
-            <label for="nombre">Nombre(s)</label><br>
-            <input type="text" placeholder="Ingrese su nombre" id="nombre"> 
-            <br><br>
-            <label for="apellido">Servicio o Producto de Interés</label><br>
-            <input type="text" placeholder="Ingrese su apellido" id="apellido">
-            <br><br>
-            <label for="email">Email</label><br>
-            <input type="email" placeholder="Ingrese su email" id="email">
-            <br><br>
-            <label for="text">Mensaje</label><br>
-            <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
-            <br><br>
-            <input class="boton" type="submit">
-            <input class="boton" type="reset">
-        </form>  
+    <div class="container">
+        <p class="llamada">Ponte en contacto con nosotros para obtener más información y una cotización personalizada.</p>
+        <p class="llamada">¡Esperamos trabajar contigo pronto!</p>
+    </div>
+        
+    <div class="container">
+        <div class="mb-3">
+            <label for="Nombre" class="form-label">Nombre(s)</label>
+            <input type="text" class="form-control" id="Nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="mb-3">
+            <label for="Servicio" class="form-label">Servicio o Producto de interés</label>
+            <select class="form-select" aria-label="Servicio">
+                <option selected>Selecciona un servicio o producto</option>
+                <option value="1">Landing page</option>
+                <option value="2">Sitio web</option>
+                <option value="3">E-commerce</option>
+              </select>
+        </div>
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="Email" placeholder="Ingrese su email">
+        </div>
+        <div class="mb-3">
+            <label for="Mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="Mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+        </div>
+        <div class="row interna justify-content-center">
+            <div class="col-4">
+                <input type="button" class="form-control btn btn-primary" value="Enviar"></input>
+            </div>
+        </div>
+        
+    </div>
 
         
-        <div class="ubicacion">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.4682360724655!2d-100.41719644893988!3d25.755093283559464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866297367518b451%3A0x19ccd9a07f63f982!2sPlaza%20Amaya!5e0!3m2!1ses-419!2smx!4v1674673284810!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+        <div class="container-fluid ubicacion">
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.4682360724655!2d-100.41719644893988!3d25.755093283559464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866297367518b451%3A0x19ccd9a07f63f982!2sPlaza%20Amaya!5e0!3m2!1ses-419!2smx!4v1674673284810!5m2!1ses-419!2smx" width="100%" height="500px" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
-    </main>
 
     <footer>
         <h3>2023 Creado por Paulina García</h3>
