@@ -71,6 +71,17 @@ h2 {
     font-family:"Nunito", sans-serif;
 }
 
+.sub1{
+    text-align: center;
+    color:#FFFF;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-family:"Nunito", sans-serif;
+}
+
 h3 {
     text-align: center;
     color:#F3F6FA;
