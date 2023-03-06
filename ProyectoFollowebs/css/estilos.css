@@ -1,271 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,300&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/*Fondos*/
-body {
-    background-color:#E8E8E8 ;
+.body {
+  background-color: #E8E8E8;
+  padding-bottom: 5%;
+  padding-top: 0;
+  border-radius: 0;
+  border: none;
 }
 
 .proceso {
-    background-color: #4922D0;
-    /*margin: 10px;
-    padding: 15px;*/
-    padding-bottom: 5%;
+  background-color: #4922D0;
+  padding-bottom: 5%;
+  padding-top: 0;
+  border-radius: 0;
+  border: none;
 }
 
 .galeria {
-    background-color:#A87BAB ;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  background-color: #A87BAB;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border-radius: 0;
+  border: none;
 }
 
 .servicios {
-    background-color:#E8BC78 ;
+  background-color: #E8BC78;
+  padding-bottom: 0;
+  padding-top: 0;
+  border-radius: 0;
+  border: none;
 }
 
-.cardColor1{
-    background-color: #E8BC78;
-    border-radius: 20px;
-    border: none;
-}
-
-.cardColor2{
-    background-color: #A87BAB;
-    border-radius: 20px;
-    border: none;
-}
-/*Titulos*/
-
-h1 {
-    text-align: center;
-    font-weight: bold;
-    color: #4922D0;
-    margin: 20px;
-    padding: 15px;
-    font-family:"Nunito", sans-serif;
-}
-
-h2 {
-    text-align: left;
-    color:#F9503B;
-    margin: 20px;
-    padding: 10px;
-    padding-left: 0px;
-    margin-left: 0px;
-    font-family:"Nunito", sans-serif;
-}
-
-.sub{
-    text-align: center;
-    color:#4922D0;
-    font-weight: bold;
-    margin: 20px;
-    padding: 10px;
-    padding-left: 0px;
-    margin-left: 0px;
-    font-family:"Nunito", sans-serif;
-}
-
-.sub1{
-    text-align: center;
-    color:#FFFF;
-    font-weight: bold;
-    margin: 20px;
-    padding: 10px;
-    padding-left: 0px;
-    margin-left: 0px;
-    font-family:"Nunito", sans-serif;
-}
-
-h3 {
-    text-align: center;
-    color:#F3F6FA;
-    margin-bottom: 10px;
-    font-weight: 400;
-    font-family: "Nunito", sans-serif;
-}
-
-/*Textos*/
-p {
-    text-align: left;
-    color: black;
-    font-weight: 400;
-    line-height: 30px;
-    text-justify: distribute;
-    font-family: "Nunito", sans-serif;
-
-}
-
-.parrafo {
-    text-align:justify;
-    color: black;
-    font-weight: 400;
-    font-size:large;
-    line-height: 30px;
-    text-justify: distribute;
-    font-family: "Nunito", sans-serif;
-
-}
-
-.subtitulo {
-    color: white;
-    font-family: "Nunito", sans-serif;
-    text-align: left;
-    margin-left: 20px;
-}
-
-/*Listas*/
-/*ol {
-    margin: 20px;
-    padding: 5px;
-}*/
-
-.H2centrado {
-    text-align:center;
-    color:#F9503B;
-    margin: 20px;
-    padding: 10px;
-    padding-left: 0px;
-    margin-left: 0px;
-    font-family:"Nunito", sans-serif;
-}
-
-
-/*Imagenes*/
-
-.logotipo{
-   width: 80px;
-   height: 15px;
-   margin-right: 0;
-}
-
-.interna{
-    width: 100%;
-    height: 100%;
-    padding:2%;
-    border-radius: 5%;
-}
-
-.banner {
-    width:1800px;
-    height: 500px;
-    margin: 5px;
-    display: block;
-    padding:15px;
-}
-
-.icono{
-    width: 30%;
-    height: 30%;
-    margin: 10px;
-    padding: 10px;
-}
-
-/*Mapa*/
-
-.ubicacion {
-    background-color: #FA6654;
-    padding-top: 2%;
-}
-/*
-iframe {
-    margin-right: 2000px;
-    padding: 500px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}*/
-
-.llamada { 
-    text-align: center;
-    font-size: large;
-    font-style: normal;
-    font-family:"Nunito", sans-serif;
-
-}
-
-/*Formulario*/
-
-form {
-    margin-bottom: 20px;
-    padding-right: 500px;
-    font-family: "Nunito", sans-serif;
-}
-
-/*Boton*/
-
-.boton {
-    width: 200x;
-    height: 60px;
-    color:black;
-    font-size: medium;
-    background-color: #E8BC78;
-    margin: 0px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 15px;
-}
-
-main {
-    margin: 20px;
-    padding: 20px;
-}
-
-footer {
-    background-color: #FA6654;
-    padding: 40px;
-}
-
-/*Navegador Menú*/
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.logo{
-    width: 20%;
-    height: 20%;
-    cursor: pointer;
-}
-
-li, a{
-    font-family:"Nunito", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-}
-
-.menuPrincipal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color:white ;
-}
-
-.navLinks{ 
-    list-style-type: none;
-}
-
-.navLinks li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.navLinks li a{
-    text-transform: uppercase;
-}
-
-.navLinks li a:hover {
-    color: #F9503B;
-}
-
-.espacio{
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
+/*# sourceMappingURL=estilos.css.map */

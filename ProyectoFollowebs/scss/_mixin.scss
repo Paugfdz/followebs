@@ -1,0 +1,25 @@
+
+@mixin fondos($color, $padding, $top, $borderrad, $border) {
+    background-color:$color;
+    padding-bottom:$padding;
+    padding-top: $top;
+    border-radius: $borderrad;
+    border: $border;
+}
+
+.body {
+    @include fondos(#E8E8E8,5%,0,0,none)
+}
+
+.proceso {
+    @include fondos(#4922D0,5%,0,0,none)
+}
+
+.galeria {
+    @include fondos(#A87BAB,5%,5%,0,none)
+}
+
+.servicios {
+    @include fondos (#E8BC78,0,0,0,none)
+}
+
