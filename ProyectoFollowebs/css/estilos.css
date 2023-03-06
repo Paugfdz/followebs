@@ -1,6 +1,53 @@
+/*Colores*/
+/*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,300&display=swap");
+.logo {
+  width: 20%;
+  height: 20%;
+  cursor: pointer;
+}
+
+li {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.menuPrincipal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: white;
+}
+
+.navLinks {
+  list-style-type: none;
+}
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navLinks li a {
+  text-transform: uppercase;
+}
+.navLinks li a:hover {
+  color: #F9503B;
+}
+
+/*fondos*/
 .body {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   padding-bottom: 5%;
   padding-top: 0;
   border-radius: 0;
@@ -16,7 +63,7 @@
 }
 
 .galeria {
-  background-color: #A87BAB;
+  background-color: #a87bab;
   padding-bottom: 5%;
   padding-top: 5%;
   border-radius: 0;
@@ -24,11 +71,195 @@
 }
 
 .servicios {
-  background-color: #E8BC78;
+  background-color: #e8bc78;
   padding-bottom: 0;
   padding-top: 0;
   border-radius: 0;
   border: none;
+}
+
+.cardColor1 {
+  background-color: #e8bc78;
+  padding-bottom: 0;
+  padding-top: 0;
+  border-radius: 20px;
+  border: none;
+}
+
+.cardColor2 {
+  background-color: #a87bab;
+  padding-bottom: 0;
+  padding-top: 0;
+  border-radius: 20px;
+  border: none;
+}
+
+/*Imagenes*/
+.logotipo {
+  width: 80px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  display: none;
+}
+
+.interna {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 2%;
+  border-radius: 5%;
+  display: none;
+}
+
+.banner {
+  width: 1800px;
+  height: 500px;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 0;
+  display: block;
+}
+
+.icono {
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 0;
+  display: none;
+}
+
+footer {
+  background-color: #FA6654;
+  padding: 40px;
+  text-align: center;
+}
+
+/*Textos*/
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #4922D0;
+  margin: 20px;
+  padding: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  text-align: left;
+  color: #F9503B;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: #F3F6FA;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-weight: 400;
+  line-height: 30px;
+  text-justify: distribute;
+  font-family: "Nunito", sans-serif;
+}
+
+.sub {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+.sub1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+.parrafo {
+  text-align: justify;
+  color: black;
+  font-weight: 400;
+  font-size: large;
+  line-height: 30px;
+  text-justify: distribute;
+  font-family: "Nunito", sans-serif;
+}
+
+.subtitulo {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.H2centrado {
+  text-align: center;
+  color: #F9503B;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+.ubicacion {
+  background-color: #FA6654;
+  padding-top: 2%;
+}
+
+.llamada {
+  text-align: center;
+  font-size: large;
+  font-style: normal;
+  font-family: "Nunito", sans-serif;
+}
+
+.boton {
+  width: 200x;
+  height: 60px;
+  color: #e8bc78;
+  font-size: medium;
+  background-color: white;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+.espacio {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
