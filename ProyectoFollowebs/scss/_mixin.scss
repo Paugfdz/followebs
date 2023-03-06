@@ -1,14 +1,14 @@
 
-/*fondos*/
+//*fondos*//
 @mixin fondos($color, $padding, $top, $borderrad, $border) {
     background-color:$color;
     padding-bottom:$padding;
-    padding-top: $top;
-    border-radius: $borderrad;
-    border: $border;
+    padding-top:$top;
+    border-radius:$borderrad;
+    border:$border;
 }
 
-.body {
+body {
     @include fondos($color_8 ,5% ,0 ,0 ,none )
 }
 
@@ -32,30 +32,30 @@
     @include fondos($color_9 ,0 ,0 ,20px ,none )
 }
 
-/*Imagenes*/
+//*Imagenes*//
 
-@mixin imagenes($ancho,$alto,$margen,$marco,$radio,$tipo) {
+@mixin imagenes($ancho,$alto,$margen,$marco,$radio) {
     width: $ancho;
     height: $alto;
     margin: $margen;
     padding: $marco;
     border-radius: $radio;
-    display: $tipo;
+
 }
 
 .logotipo {
-    @include imagenes(80px ,15px ,0 ,0 ,0 ,none )
+    @include imagenes(80px ,15px ,0 ,0 ,0 )
 }
 
 .interna {
-    @include imagenes(100% ,100% ,0 ,2% ,5% ,none )
+    @include imagenes(100% ,100% ,0 ,2% ,5% )
 }
 
 .banner {
-    @include imagenes(1800px ,500px ,5px ,15px ,0 ,block )
+    @include imagenes(1800px ,500px ,5px ,15px ,0 )
 }
 
 .icono {
-    @include imagenes(30% ,30% ,10px ,10px ,0 ,none )
+    @include imagenes(30% ,30% ,10px ,10px ,0 )
 }
 
