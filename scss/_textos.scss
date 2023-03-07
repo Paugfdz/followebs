@@ -1,0 +1,80 @@
+/*Textos*/
+h1 {
+	text-align: center;
+	font-weight: bold;
+	color: $color_5;
+	margin: 20px;
+	padding: 15px;
+	font-family: $font-family_1;
+}
+h2 {
+	text-align: left;
+	color: $color_2;
+	margin: 20px;
+	padding: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-family: $font-family_1;
+}
+h3 {
+	text-align: center;
+	color: $color_4;
+	margin-bottom: 10px;
+	font-weight: 400;
+	font-family: $font-family_1;
+}
+p {
+	text-align: left;
+	color: $color_1;
+	font-weight: 400;
+	line-height: 30px;
+	text-justify: distribute;
+	font-family: $font-family_1;
+}
+
+.sub {
+	text-align: center;
+	color: $color_1;
+	font-weight: bold;
+	margin: 20px;
+	padding: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-family: $font-family_1;
+}
+.sub1 {
+	text-align: center;
+	color: $color_3;
+	font-weight: bold;
+	margin: 20px;
+	padding: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-family: $font-family_1;
+}
+
+.parrafo {
+	text-align: justify;
+	color: $color_1;
+	font-weight: 400;
+	font-size: large;
+	line-height: 30px;
+	text-justify: distribute;
+	font-family: $font-family_1;
+}
+.subtitulo {
+	color: $color_3;
+	font-family: $font-family_1;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.H2centrado {
+	text-align: center;
+	color: $color_2;
+	margin: 20px;
+	padding: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-family: $font-family_1;
+}
