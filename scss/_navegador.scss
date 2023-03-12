@@ -1,39 +1,39 @@
 .logo {
-	width: 20%;
-	height: 20%;
-	cursor: pointer;
+  width: 20%;
+  height: 20%;
+  cursor: pointer;
 }
 li {
-	font-family: $font-family_1;
-	font-weight: 500;
-	font-size: 20px;
-	color: $color_1;
-	text-decoration: none;
+  font-family: $font-family_1;
+  font-weight: 500;
+  font-size: 20px;
+  color: $color_1;
+  text-decoration: none;
 }
 a {
-	font-family: $font-family_1;
-	font-weight: 500;
-	font-size: 20px;
-	color: $color_1;
-	text-decoration: none;
+  font-family: $font-family_1;
+  font-weight: 500;
+  font-size: 20px;
+  color: $color_1;
+  text-decoration: none;
 }
 .menuPrincipal {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 30px 10%;
-	background-color: $color_3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: $color_3;
 }
 .navLinks {
-	list-style-type: none;
-	li {
-		display: inline-block;
-		padding: 0px 20px;
-		a {
-			text-transform: uppercase;
-			&:hover {
-				color: $color_2;
-			}
-		}
-	}
+  list-style-type: none;
+  li {
+    display: inline-block;
+    padding: 0px 20px;
+    a {
+      text-transform: uppercase;
+      &:hover {
+        color: $color_2;
+      }
+    }
+  }
 }
