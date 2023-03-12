@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto+Flex&display=swap");
 .logo {
   width: 20%;
   height: 20%;
@@ -6,7 +6,7 @@
 }
 
 li {
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
   font-weight: 500;
   font-size: 20px;
   color: black;
@@ -14,7 +14,7 @@ li {
 }
 
 a {
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
   font-weight: 500;
   font-size: 20px;
   color: black;
@@ -26,7 +26,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .navLinks {
@@ -40,11 +40,11 @@ a {
   text-transform: uppercase;
 }
 .navLinks li a:hover {
-  color: #F9503B;
+  color: #f9503b;
 }
 
 body {
-  background-color: #F1EAE0;
+  background-color: #f1eae0;
   padding-bottom: 5%;
   padding-top: 0;
   border-radius: 0;
@@ -52,8 +52,16 @@ body {
 }
 
 .proceso {
-  background-color: #4922D0;
+  background-color: #4922d0;
   padding-bottom: 5%;
+  padding-top: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.wave2 {
+  background-color: #4922d0;
+  padding-bottom: 0;
   padding-top: 0;
   border-radius: 0;
   border: none;
@@ -63,6 +71,14 @@ body {
   background-color: #a87bab;
   padding-bottom: 5%;
   padding-top: 5%;
+  border-radius: 0;
+  border: none;
+}
+
+.wave {
+  background-color: #a87bab;
+  padding-bottom: 0;
+  padding-top: 0;
   border-radius: 0;
   border: none;
 }
@@ -124,7 +140,7 @@ body {
 }
 
 footer {
-  background-color: #FA6654;
+  background-color: #fa6654;
   padding: 40px;
   text-align: center;
 }
@@ -133,28 +149,29 @@ footer {
 h1 {
   text-align: center;
   font-weight: bold;
-  color: #4922D0;
+  color: #4922d0;
   margin: 20px;
   padding: 15px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Paytone one";
 }
 
 h2 {
   text-align: left;
-  color: #F9503B;
+  color: #f9503b;
   margin: 20px;
   padding: 10px;
   padding-left: 0px;
   margin-left: 0px;
-  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-family: "Roboto flex";
 }
 
 h3 {
   text-align: center;
-  color: #F3F6FA;
+  color: #f3f6fa;
   margin-bottom: 10px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 p {
@@ -163,7 +180,7 @@ p {
   font-weight: 400;
   line-height: 30px;
   text-justify: distribute;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 .sub {
@@ -174,18 +191,18 @@ p {
   padding: 10px;
   padding-left: 0px;
   margin-left: 0px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 .sub1 {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   margin: 20px;
   padding: 10px;
   padding-left: 0px;
   margin-left: 0px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 .parrafo {
@@ -195,28 +212,28 @@ p {
   font-size: large;
   line-height: 30px;
   text-justify: distribute;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 .subtitulo {
-  color: #FFFFFF;
-  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-family: "Roboto flex";
   text-align: left;
   margin-left: 20px;
 }
 
 .H2centrado {
   text-align: center;
-  color: #F9503B;
+  color: #f9503b;
   margin: 20px;
   padding: 10px;
   padding-left: 0px;
   margin-left: 0px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 .ubicacion {
-  background-color: #FA6654;
+  background-color: #fa6654;
   padding-top: 2%;
 }
 
@@ -224,7 +241,7 @@ p {
   text-align: center;
   font-size: large;
   font-style: normal;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 .boton {
@@ -232,7 +249,7 @@ p {
   height: 60px;
   color: #e8bc78;
   font-size: medium;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: 0px;
   padding: 10px;
   text-align: center;
@@ -257,7 +274,7 @@ main {
 form {
   margin-bottom: 20px;
   padding-right: 500px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto flex";
 }
 
 /*# sourceMappingURL=estilos.css.map */
